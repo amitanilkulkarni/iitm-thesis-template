@@ -20,10 +20,10 @@ The template should work on Windows as well as Linux.
 
 #### For Linux: ####
 
-- Download the zip file. Extract it somewhere. `cd` to the folder 
+1. Download the zip file. Extract it somewhere. `cd` to the folder 
   where you extracted it.
   
-- Copy the `iitmdiss` directory to the latex template directory. 
+2. Copy the `iitmdiss` directory to the latex template directory. 
   Note that on some distributions, path may be different.
   
 	- For Archlinux:
@@ -31,12 +31,16 @@ The template should work on Windows as well as Linux.
   	
 	- For Ubuntu:
   	`sudo cp -r iitmdiss/ /usr/share/texlive/texmf-dist/tex/latex/iitmdiss`
+
+3. Copy `iitmdiss.layout` file to LyX layouts directory.
+	
+	`sudo cp iitmdiss.layout /usr/share/lyx/layouts/`
   
-- Run `texhash` to refresh file name database.
+4. Run `texhash` to refresh file name database.
 
   `sudo texhash`
 
-- Open LyX. Click on Tools/Reconfigure. Restart LyX when done.
+5. Open LyX. Click on `Tools > Reconfigure`. Restart LyX when done.
 
 ##### That's it! #####
 The template `thesis.lyx` should now open and compile properly. 
@@ -48,10 +52,10 @@ pressing `Ctrl+R`.
 
 ## Usage Instructions ##
 
-- First thing you should do is, open `Document>Settings>LaTeX Preamble`.
+- First thing you should do is, open `Document > Settings > LaTeX Preamble`.
   Set the Thesis title, Author, Date and your Department name there.
 
-- Set your degree in `Documents>Settings>Document class>Custom`. Values
+- Set your degree in `Documents > Settings > Document class > Custom`. Values
   can be:
 	- BTech
 	- MTech
@@ -64,18 +68,18 @@ pressing `Ctrl+R`.
 - Don't remove any of the grey chunks of text you see in the file.
   Just edit the text part.
 
-- Figures can be inserted normally through `Insert>Float>Figure` and
-  `Insert>Graphics`. Same with tables.
+- Figures can be inserted normally through first `Insert > Float > Figure` and
+  then `Insert>Graphics` inside it. Same with tables.
 
 - This document supports all image formats (jpeg, png, eps, pdf etc).
-  Set the image scaling via `Right-click>Settings` on the image.
+  Set the image scaling via `Right-click > Settings` on the image.
 
 - References at the end of the document can be set by editing the file
   `refs.bib` found in the same folder.
 
 ## Exporting the PDF ##
 
-Do `File>Export>PDF (pdflatex)`. `thesis.pdf` will be created in the
+Do `File > Export > PDF (pdflatex)`. `thesis.pdf` will be created in the
 same folder.
 
 Good luck! :)

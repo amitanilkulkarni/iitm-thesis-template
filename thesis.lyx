@@ -1,0 +1,1998 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass iitmdiss
+\begin_preamble
+%  Edit the declarations given below...
+
+\def\thesistitle{Generic Title (Edit the \LaTeX \ Preamble from Document/Settings)}	% Thesis Title
+\def\thesisauthor{Amit Anil Kulkarni}			% Author
+\def\thesisdate{April 2016}				% Date
+\def\dept{Electrical Engineering}			% Department
+
+
+% !!! DO NOT EDIT ANYTHING BEYOND THIS POINT !!!
+
+\usepackage{times}
+\usepackage{epsf}
+\usepackage{threeparttable}
+\usepackage{setspace}
+\usepackage{amsthm}
+\usepackage{txfonts}
+\usepackage{pxfonts}\usepackage{amsfonts}\usepackage{epsfig}
+\usepackage{caption}
+\usepackage[pdftex]{graphicx}
+% \usepackage[square,numbers,sort]{natbib}
+% hyperlinks for references.
+%\usepackage{algorithmic}
+%\usepackage{algorithm}
+
+
+%\include{commands}
+
+% Strut macros for skipping spaces above and below text in tables. 
+\def\abovestrut#1{\rule[0in]{0in}{#1}\ignorespaces}
+\def\belowstrut#1{\rule[-#1]{0in}{#1}\ignorespaces}
+
+\def\abovespace{\abovestrut{0.20in }}
+\def\aroundspace{\abovestrut{0.20in}\belowstrut{0.10in}}
+\def\belowspace{\belowstrut{0.10in}}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\end_preamble
+\options MTech
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref section
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style iitm
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+title{
+\backslash
+thesistitle}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author{
+\backslash
+thesisauthor}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+date{
+\backslash
+thesisdate}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+department{
+\backslash
+dept}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{singlespace}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{singlespace} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+certificate
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 0.5in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+This is to certify that the thesis entitled 
+\series bold
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+thesistitle
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\series default
+, submitted by 
+\series bold
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+thesisauthor
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\series default
+, to the Indian Institute of Technology Madras, for the award of the degree
+ of 
+\series bold
+Master of Technology
+\series default
+, is a bona fide record of the research work carried out by him under my
+ supervision.
+ The contents of this thesis, in full or in parts, have not been submitted
+ to any other Institute or University for the award of any degree or diploma.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1.4in*
+\end_inset
+
+ 
+\begin_inset space \hspace*{}
+\length -0.25in
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\noindent
+
+\series bold
+Dr.
+\begin_inset space ~
+\end_inset
+
+Pradeep
+\begin_inset space ~
+\end_inset
+
+Sarvepalli 
+\series default
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Research Guide 
+\begin_inset Newline newline
+\end_inset
+
+ Assistant Professor 
+\begin_inset Newline newline
+\end_inset
+
+ Dept.
+ of Computer Science and Engineering
+\begin_inset Newline newline
+\end_inset
+
+ IIT Madras, 600 036 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace 0.2in*
+\end_inset
+
+ Place: Chennai
+\begin_inset Newline newline
+\end_inset
+
+ Date:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+acknowledgements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I would like to thank everyone who helped me in my project.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+abstract
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+KEYWORDS: 
+\begin_inset space \hspace*{}
+\length 0.5em
+\end_inset
+
+ 
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 1
+use_makebox 0
+width "4.4in"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+IIT Madras Thesis Template LyX
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 24pt*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The TeX templates available online were last updated in 2009.
+ Naturally, they didn't compile.
+ Including PNG/JPG files in them was not straightforward either.
+ So I decided to port the TeX file to LyX.
+ However, the whole process turned out to be way more complicated than I
+ thought.
+\end_layout
+
+\begin_layout Standard
+A simple tex2lyx failed with a trillion errors.
+ I had to make iitmdiss.cls work with LyX.
+ After an hour of tinkering, the tex2lyx conversion was finally successful
+ with no errors and a bunch of warnings.
+ This wasn't the end, though.
+ The lyx document failed to compile.
+ Sections were missing, formatting was wonky.
+ Another four hours on the internet.
+ A lot of tweaking.
+ Now it gives *exactly* identical output as that of the tex file.
+ Another hour spent to make png/jpeg work.
+ Converting every image to eps is frustrating.
+\end_layout
+
+\begin_layout Standard
+The point is, porting that stupid TeX file to LyX took a whole night.
+ I hope it will be worth it for everyone in the long run.
+\end_layout
+
+\begin_layout Itemize
+No more fumbling around in the sea of code.
+ WYSIWYG.
+\end_layout
+
+\begin_layout Itemize
+This file works with png, jpg and whatever graphics formats you throw at
+ it.
+\end_layout
+
+\begin_layout Standard
+I'm no TeXpert.
+ And despite it does the job, this file isn't exactly pretty.
+ Feel free to suggest changes and share it with others.
+\end_layout
+
+\begin_layout Standard
+Oh, and don't remove any of the grey boxes.
+ They're very necessary.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{LIST OF TABLES}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{LIST OF FIGURES}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+abbreviations
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabbing}
+\end_layout
+
+\end_inset
+
+ xxxxxxxxxxx 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+=
+\end_layout
+
+\end_inset
+
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+kill
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+IITM
+\series default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+>
+\end_layout
+
+\end_inset
+
+ Indian Institute of Technology, Madras 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+RTFM
+\series default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+>
+\end_layout
+
+\end_inset
+
+ Read the Fine Manual 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabbing}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+NOTATION
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{NOTATION}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabbing}
+\end_layout
+
+\end_inset
+
+ xxxxxxxxxxx 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+=
+\end_layout
+
+\end_inset
+
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+kill
+\end_layout
+
+\end_inset
+
+
+\series bold
+
+\begin_inset Formula $r$
+\end_inset
+
+
+\series default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+>
+\end_layout
+
+\end_inset
+
+ Radius, 
+\begin_inset Formula $m$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\series default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+>
+\end_layout
+
+\end_inset
+
+ Angle of thesis in degrees 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+
+\begin_inset Formula $\beta$
+\end_inset
+
+
+\series default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+>
+\end_layout
+
+\end_inset
+
+ Flight path in degrees 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabbing}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+INTRODUCTION
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:intro"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This document provides a simple template of how the provided 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+iitmdiss.cls+
+\end_layout
+
+\end_inset
+
+ LaTeX
+\begin_inset space \space{}
+\end_inset
+
+class is to be used.
+ Also provided are several useful tips to do various things that might be
+ of use when you write your thesis.
+\end_layout
+
+\begin_layout Standard
+Before reading any further please note that you are strongly advised against
+ changing any of the formatting options used in the class provided in this
+ directory, unless you are absolutely sure that it does not violate the
+ IITM formatting guidelines.
+ 
+\emph on
+Please do not change the margins or the spacing.
+
+\emph default
+ If you do change the formatting you are on your own (don't blame me if
+ you need to reprint your entire thesis).
+ In the case that you do change the formatting despite these warnings, the
+ least I ask is that you do not redistribute your style files to your friends
+ (or enemies).
+\end_layout
+
+\begin_layout Standard
+It is also a good idea to take a quick look at the formatting guidelines.
+ Your office or advisor should have a copy.
+ If they don't, pester them, they really should have the formatting guidelines
+ readily available somewhere.
+\end_layout
+
+\begin_layout Standard
+To compile your sources run the following from the command line: 
+\end_layout
+
+\begin_layout Verbatim
+ % latex thesis.tex
+\end_layout
+
+\begin_layout Verbatim
+ % bibtex thesis
+\end_layout
+
+\begin_layout Verbatim
+ % latex thesis.tex
+\end_layout
+
+\begin_layout Verbatim
+ % latex thesis.tex
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+Modify this suitably for your sources.
+\end_layout
+
+\begin_layout Standard
+To generate PDF's with the links from the 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+hyperref+
+\end_layout
+
+\end_inset
+
+ package use the following command: 
+\end_layout
+
+\begin_layout Verbatim
+ % dvipdfm -o thesis.pdf thesis.dvi
+\end_layout
+
+\begin_layout Verbatim
+ 
+\end_layout
+
+\begin_layout Section
+Package Options
+\end_layout
+
+\begin_layout Standard
+Use this thesis as a basic template to format your thesis.
+ The 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+iitmdiss+
+\end_layout
+
+\end_inset
+
+ class can be used by simply using something like this: 
+\end_layout
+
+\begin_layout Verbatim
+ 
+\backslash
+documentclass[PhD]{iitmdiss}  
+\end_layout
+
+\begin_layout Verbatim
+ 
+\end_layout
+
+\begin_layout Standard
+To change the title page for different degrees just change the option from
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+PhD+
+\end_layout
+
+\end_inset
+
+ to one of 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+MS+
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+MTech+
+\end_layout
+
+\end_inset
+
+ or 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+BTech+
+\end_layout
+
+\end_inset
+
+.
+ The dual degree pages are not supported yet but should be quite easy to
+ add.
+ The title page formatting really depends on how large or small your thesis
+ title is.
+ Consequently it might require some hand tuning.
+ Edit your version of 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+iitmdiss.cls+
+\end_layout
+
+\end_inset
+
+ suitably to do this.
+ I recommend that this be done once your title is final.
+\end_layout
+
+\begin_layout Standard
+To write a synopsis simply use the 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+synopsis.tex+
+\end_layout
+
+\end_inset
+
+ file as a simple template.
+ The synopsis option turns this on and can be used as shown below.
+ 
+\end_layout
+
+\begin_layout Verbatim
+ 
+\backslash
+documentclass[PhD,synopsis]{iitmdiss}                                
+\end_layout
+
+\begin_layout Verbatim
+ 
+\end_layout
+
+\begin_layout Standard
+Once again the title page may require some small amount of fine tuning.
+ This is again easily done by editing the class file.
+\end_layout
+
+\begin_layout Standard
+This sample file uses the 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+hyperref+
+\end_layout
+
+\end_inset
+
+ package that makes all labels and references clickable in both the generated
+ DVI and PDF files.
+ These are very useful when reading the document online and do not affect
+ the output when the files are printed.
+\end_layout
+
+\begin_layout Section
+Example Figures and tables
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:iitm"
+
+\end_inset
+
+ shows a simple figure for illustration along with a long caption.
+ The formatting of the caption text is automatically single spaced and indented.
+ Table
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:sample"
+
+\end_inset
+
+ shows a sample table with the caption placed correctly.
+ The caption for this should always be placed before the table as shown
+ in the example.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/sample.jpg
+	lyxscale 40
+	scale 30
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/sample2.png
+	lyxscale 40
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+An image that has nothing to do with this article or the knowledge of holding
+ a soldering iron.
+ The other one is clearly an easter egg.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:iitm"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement htbp
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+A sample table with a table caption placed appropriately.
+ This caption is also very long and is single-spaced.
+ Also notice how the text is aligned.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+36 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+49 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+64 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:sample"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Bibliography with BIBTeX
+\end_layout
+
+\begin_layout Standard
+I strongly recommend that you use BIBTeX
+\begin_inset space \space{}
+\end_inset
+
+to automatically generate your bibliography.
+ It makes managing your references much easier.
+ It is an excellent way to organize your references and reuse them.
+ You can use one set of entries for your references and cite them in your
+ thesis, papers and reports.
+ If you haven't used it anytime before please invest some time learning
+ how to use it.
+\end_layout
+
+\begin_layout Standard
+I've included a simple example BIBTeX
+\begin_inset space \space{}
+\end_inset
+
+file along in this directory called 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+refs.bib+
+\end_layout
+
+\end_inset
+
+.
+ The 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+iitmdiss.cls+
+\end_layout
+
+\end_inset
+
+ class package which is used in this thesis and for the synopsis uses the
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+natbib+
+\end_layout
+
+\end_inset
+
+ package to format the references along with a customized bibliography style
+ provided as the 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+iitm.bst+
+\end_layout
+
+\end_inset
+
+ file in the directory containing 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+thesis.tex+
+\end_layout
+
+\end_inset
+
+.
+ Documentation for the 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+natbib+
+\end_layout
+
+\end_inset
+
+ package should be available in your distribution of LaTeX.
+ Basically, to cite the author along with the author name and year use 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+
+\backslash
+cite{key}+
+\end_layout
+
+\end_inset
+
+ where 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+key+
+\end_layout
+
+\end_inset
+
+ is the citation key for your bibliography entry.
+ You can also use 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+
+\backslash
+citet{key}+
+\end_layout
+
+\end_inset
+
+ to get the same effect.
+ To make the citation without the author name in the main text but inside
+ the parenthesis use 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+
+\backslash
+citep{key}+
+\end_layout
+
+\end_inset
+
+.
+ The following paragraph shows how citations can be used in text effectively.
+\end_layout
+
+\begin_layout Standard
+More information on BIBTeX
+\begin_inset space \space{}
+\end_inset
+
+is available in the book by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "lamport"
+
+\end_inset
+
+.
+ There are many references
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "lamport, helmut, david"
+
+\end_inset
+
+ that explain how to use BIBTeX.
+ Read the 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+natbib+
+\end_layout
+
+\end_inset
+
+ package documentation for more details on how to cite things differently.
+ Different type of citations are book
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "bellman"
+
+\end_inset
+
+, one atricle in the book
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Amarel:1968"
+
+\end_inset
+
+, thesis
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "manning"
+
+\end_inset
+
+, technical report 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ravindran:proof"
+
+\end_inset
+
+, journal
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Barto:rtdp"
+
+\end_inset
+
+, conference
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "knoblock90learning"
+
+\end_inset
+
+ and other like url
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "crawford92theoretical"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Other useful LaTeX
+\begin_inset space \space{}
+\end_inset
+
+packages
+\end_layout
+
+\begin_layout Standard
+The following packages might be useful when writing your thesis.
+\end_layout
+
+\begin_layout Itemize
+It is very useful to include line numbers in your document.
+ That way, it is very easy for people to suggest corrections to your text.
+ I recommend the use of the 
+\family typewriter
+lineno
+\family default
+ package for this purpose.
+ This is not a standard package but can be obtained on the internet.
+ The directory containing this file should contain a lineno directory that
+ includes the package along with documentation for it.
+\end_layout
+
+\begin_layout Itemize
+The 
+\family typewriter
+listings
+\family default
+ package should be available with your distribution of LaTeX.
+ This package is very useful when one needs to list source code or pseudo-code.
+\end_layout
+
+\begin_layout Itemize
+For special figure captions the 
+\family typewriter
+ccaption
+\family default
+ package may be useful.
+ This is specially useful if one has a figure that spans more than two pages
+ and you need to use the same figure number.
+\end_layout
+
+\begin_layout Itemize
+The notation page can be entered manually or automatically generated using
+ the 
+\family typewriter
+nomencl
+\family default
+ package.
+\end_layout
+
+\begin_layout Standard
+More details on how to use these specific packages are available along with
+ the documentation of the respective packages.
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%dummy comment inserted to ensure that this paragraph is not empty.
+ Do not delete.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+A SAMPLE APPENDIX
+\end_layout
+
+\begin_layout Standard
+Just put in text as you would into any chapter with sections and whatnot.
+ Thats the end of it.
+\end_layout
+
+\begin_layout Chapter*
+Publications
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+S.
+ M.
+ Narayanamurthy and B.
+ Ravindran (2007).
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+ Efficiently Exploiting Symmetries in Real Time Dynamic Programming.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+em
+\end_layout
+
+\end_inset
+
+ IJCAI 2007, Proceedings of the 20th International Joint Conference on Artificia
+l Intelligence
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+, pages 2556--2561.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{small}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "refs"
+options "default"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{small}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document

@@ -23,11 +23,14 @@ The template should work on Windows as well as Linux.
 - Download the zip file. Extract it somewhere. `cd` to the folder 
   where you extracted it.
   
-- Copy the `iitmdiss` directory to `/usr/share/texmf/tex/latex/`. Note
-  that on some distributions, the destination may be different.
-  (on Archlinux, it is `/usr/share/texmf-dist/tex/latex/`.
+- Copy the `iitmdiss` directory to the latex template directory. 
+  Note that on some distributions, path may be different.
   
-  `sudo cp -r iitmdiss /usr/share/texmf/latex/`
+	- For Archlinux:
+	`sudo cp -r iitmdiss /usr/share/texmf-dist/tex/latex/iitmdiss/`.
+  	
+	- For Ubuntu:
+  	`sudo cp -r iitmdiss/ /usr/share/texlive/texmf-dist/tex/latex/iitmdiss`
   
 - Run `texhash` to refresh file name database.
 
@@ -35,8 +38,12 @@ The template should work on Windows as well as Linux.
 
 - Open LyX. Click on Tools/Reconfigure. Restart LyX when done.
 
-That's it. The template `thesis.lyx` should now open and compile just
-fine. Test it by opening `thesis.lyx` and pressing `Ctrl+R`.
+##### That's it! #####
+The template `thesis.lyx` should now open and compile properly. 
+
+You may get an error saying a class is missing, but ignore it since 
+the PDF is created just fine. Test it by opening `thesis.lyx` and 
+pressing `Ctrl+R`.
 
 
 ## Usage Instructions ##

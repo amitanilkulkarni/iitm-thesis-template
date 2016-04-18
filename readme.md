@@ -58,7 +58,8 @@ pressing `Ctrl+R`.
 	- MS
 	- PhD 
 	
-- If it's a synopsis, add `synopsis` to the end. Example: `MTech, synopsis` or simply `MTech`.
+- If it's a synopsis, add `synopsis` to the end. 
+  (Examples: `MTech, synopsis` or simply `MTech`)
 
 - Don't remove any of the grey chunks of text you see in the file.
   Just edit the text part.
@@ -67,7 +68,7 @@ pressing `Ctrl+R`.
   `Insert>Graphics`. Same with tables.
 
 - This document supports all image formats (jpeg, png, eps, pdf etc).
-  Set the image scaling via right-click>Settings on the image.
+  Set the image scaling via `Right-click>Settings` on the image.
 
 - References at the end of the document can be set by editing the file
   `refs.bib` found in the same folder.

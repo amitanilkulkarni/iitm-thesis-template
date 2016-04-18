@@ -51,9 +51,14 @@ pressing `Ctrl+R`.
 - First thing you should do is, open `Document>Settings>LaTeX Preamble`.
   Set the Thesis title, Author, Date and your Department name there.
 
-- Set your degree in Documents>Settings>Document class>Custom. Values
-  can be one of {BTech; MTech; MS; PhD}. If it's a synopsis, add 
-  `synopsis` to the end. Example: `MTech, synopsis` or simply `MTech`.
+- Set your degree in `Documents>Settings>Document class>Custom`. Values
+  can be:
+	- BTech
+	- MTech
+	- MS
+	- PhD 
+	
+- If it's a synopsis, add `synopsis` to the end. Example: `MTech, synopsis` or simply `MTech`.
 
 - Don't remove any of the grey chunks of text you see in the file.
   Just edit the text part.

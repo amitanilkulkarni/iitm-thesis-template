@@ -6,7 +6,7 @@ format.
 
 ## Installation Instructions ##
 
-##### For Linux #####:
+##### For Linux: #####
 The following packages need to be installed:
 
 	lyx

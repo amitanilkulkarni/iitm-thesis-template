@@ -6,7 +6,7 @@ format.
 
 ## Prerequisites ##
 
-The following packages need to be installed first:
+For Linux, the following packages need to be installed first:
 
 	lyx
 	texlive
@@ -14,9 +14,14 @@ The following packages need to be installed first:
 	texlive-publishers
 	texlive-science
 
+For Windows, download and install the latest LyX bundle from this website: http://www.lyx.org/Download
+The same installer will also install MiKTeX on your computer.
+
+
 ## Installation ##
 
-The template should work on Windows as well as Linux.
+The template should work on Windows as well as Linux. However, I recommend 
+using Linux for this since it's much easier to configure there.
 
 #### For Linux: ####
 
@@ -41,6 +46,23 @@ The template should work on Windows as well as Linux.
   `sudo texhash`
 
 5. Open LyX. Click on `Tools > Reconfigure`. Restart LyX when done.
+
+
+#### For Windows: ####
+
+1. Download the zip file and extract its contents somewhere.
+
+2. Now copy the directory `iitmdiss` to `%AppData%\MiKTeX\2.9\tex\latex`. You may first need to create the `latex` directory inside `%AppData%\MiKTeX\2.9\tex\` manually.
+
+3. Now copy the file `iitmdiss.layout` inside `C:\Program Files (x86)\LyX 2.1\Resources\layouts`.
+
+4. Now open `MiKTeX Package Manager (Admin)` from start menu. We need to install three packages, `caption`, `natbib` and `threeparttable` from there. You can search using the Name field on the top bar. Then right click and choose Install on the shown package.
+
+(NOTE: If you get download errors, go to `Repository>Change Repository`. Choose any of the available ones. That should fix it.)
+
+5. After this is done, open `cmd.exe` and type: `texhash`
+
+6. Open LyX as administrator, and click on `Tools>Reconfigure`. Now restart Lyx, again as an admin.
 
 ##### That's it! #####
 The template `thesis.lyx` should now open and compile properly. 

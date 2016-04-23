@@ -55,7 +55,7 @@ using Linux for this since it's much easier to configure there.
 5. Open LyX. Click on `Tools > Reconfigure`. Restart LyX when done.
 
 
-#### For Windows (Not recommended): ####
+#### For Windows: ####
 
 1. Download the zip file and extract its contents somewhere.
 

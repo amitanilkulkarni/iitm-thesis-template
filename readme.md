@@ -4,9 +4,10 @@ IITM Thesis Template (LyX)
 An exact LyX port of the standard IIT Madras BTech/MTech/MS/PhD Thesis
 format.
 
-## Prerequisites ##
+## Installation Instructions ##
 
-For Linux, the following packages need to be installed first:
+##### For Linux #####:
+The following packages need to be installed:
 
 	lyx
 	texlive
@@ -14,11 +15,17 @@ For Linux, the following packages need to be installed first:
 	texlive-publishers
 	texlive-science
 
-For Windows, download and install the latest LyX bundle from this website: http://www.lyx.org/Download
+##### For Windows: #####
+
+Download and install the latest LyX bundle from this website: http://www.lyx.org/Download
 The same installer will also install MiKTeX on your computer.
 
+After LyX and MiKTeX are installed, open `MiKTeX Package Manager (Admin)` from start menu. Go to `Repository > Change Repository`, let it pull the names from the internet, and choose any HTTP repository of your choice.
 
-## Installation ##
+We now need to install three packages, `caption`, `natbib` and `threeparttable` from there. You can search using the Name field on the top bar. Then right click and choose Install on the shown package.
+
+
+## One-time Preparation ##
 
 The template should work on Windows as well as Linux. However, I recommend 
 using Linux for this since it's much easier to configure there.
@@ -56,18 +63,14 @@ using Linux for this since it's much easier to configure there.
 
 3. Now copy the file `iitmdiss.layout` inside `C:\Program Files (x86)\LyX 2.1\Resources\layouts`.
 
-4. Now open `MiKTeX Package Manager (Admin)` from start menu. We need to install three packages, `caption`, `natbib` and `threeparttable` from there. You can search using the Name field on the top bar. Then right click and choose Install on the shown package. If you get download errors, go to `Repository>Change Repository`. Choose any of the available ones. That should fix it.
+4. After this is done, open `cmd.exe` and type: `texhash`
 
-5. After this is done, open `cmd.exe` and type: `texhash`
-
-6. Open LyX as administrator, and click on `Tools>Reconfigure`. Now restart Lyx, again as an admin.
+5. Open LyX as administrator, and click on `Tools>Reconfigure`. Now restart Lyx, again as an admin.
 
 ##### That's it! #####
 The template `thesis.lyx` should now open and compile properly. 
 
-You may get an error saying a class is missing, but ignore it since 
-the PDF is created just fine. Test it by opening `thesis.lyx` and 
-pressing `Ctrl+R`.
+You may get an error saying a class is missing, but ignore it since the PDF is created just fine. Test it by opening `thesis.lyx` and choosing `File > Export > PDF (pdflatex)`. A new PDF with name thesis.pdf will be created in the same directory.
 
 
 ## Usage Instructions ##

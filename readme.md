@@ -48,7 +48,7 @@ using Linux for this since it's much easier to configure there.
 5. Open LyX. Click on `Tools > Reconfigure`. Restart LyX when done.
 
 
-#### For Windows: ####
+#### For Windows (Not recommended): ####
 
 1. Download the zip file and extract its contents somewhere.
 
@@ -56,9 +56,7 @@ using Linux for this since it's much easier to configure there.
 
 3. Now copy the file `iitmdiss.layout` inside `C:\Program Files (x86)\LyX 2.1\Resources\layouts`.
 
-4. Now open `MiKTeX Package Manager (Admin)` from start menu. We need to install three packages, `caption`, `natbib` and `threeparttable` from there. You can search using the Name field on the top bar. Then right click and choose Install on the shown package.
-
-(NOTE: If you get download errors, go to `Repository>Change Repository`. Choose any of the available ones. That should fix it.)
+4. Now open `MiKTeX Package Manager (Admin)` from start menu. We need to install three packages, `caption`, `natbib` and `threeparttable` from there. You can search using the Name field on the top bar. Then right click and choose Install on the shown package. If you get download errors, go to `Repository>Change Repository`. Choose any of the available ones. That should fix it.
 
 5. After this is done, open `cmd.exe` and type: `texhash`
 

@@ -22,10 +22,12 @@ The same installer will also install MiKTeX on your computer.
 
 After LyX and MiKTeX are installed, open `MiKTeX Package Manager (Admin)` from start menu. Go to `Repository > Change Repository`, let it pull the names from the internet, and choose any HTTP repository of your choice.
 
-We now need to install three packages, `caption`, `natbib` and `threeparttable` from there. You can search using the Name field on the top bar. Then right click and choose Install on the shown package.
+We now need to install three packages, `caption`, `natbib` and `threeparttable` from there. You can search using the Name field on the top bar. Then right click and choose Install on the shown package. 
+
+The procedure is not over just yet. Move on to the next section.
 
 
-## One-time Preparation ##
+## Copying the Layout & Class Files ##
 
 The template should work on Windows as well as Linux. However, I recommend 
 using Linux for this since it's much easier to configure there.

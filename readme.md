@@ -4,7 +4,7 @@ IITM Thesis Template (LyX)
 An exact LyX port of the standard IIT Madras BTech/MTech/MS/PhD Thesis
 format.
 
-## Installation Instructions ##
+## Installing LyX and Other Packages ##
 
 ##### For Linux: #####
 The following packages need to be installed:
@@ -14,6 +14,8 @@ The following packages need to be installed:
 	texlive-latexextra
 	texlive-publishers
 	texlive-science
+
+Use a suitable package manager for your distribution.
 
 ##### For Windows: #####
 
